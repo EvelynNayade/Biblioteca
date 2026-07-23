@@ -1,0 +1,53 @@
+.nome{
+    font-family: 'Jacquard 24', 'Times New Roman', Times, serif;
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+    
+}
+
+@media (max-width:800px){
+    .nome{
+        margin-bottom: 15px;
+    }
+}
+.links{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.links li{
+    margin-right: 1em;
+}
+
+.links li a{
+    text-decoration: none;
+}
+
+.botao{
+    padding: 5px 10px;
+    background-color: #03151E;
+    border-radius: 20px;
+}
+
+.botao:hover{
+    background-color: #4BC1D2;
+}
+
+
+.botao a{
+    color: white;
+}
+
+.botao a:hover{
+    color: #03151E;
+}
+
+.contato a{
+    color: #03151E;
+}
+
+.contato a:hover{
+    color: #4BC1D2;
+}

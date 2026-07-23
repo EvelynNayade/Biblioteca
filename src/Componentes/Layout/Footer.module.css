@@ -1,0 +1,80 @@
+
+.footer{
+    width: auto;
+    max-height: 350px;
+    background-color: #03151E;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding-bottom: 20px;
+}
+
+.sobre{
+    margin: 5% 0 5% 0;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+@media (max-width: 1000px){
+    .sobre{
+    margin: 10% 0;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.lista{
+        list-style: none;
+        font-size: 10px;
+        padding: 0 1%;
+}
+
+}
+
+.direitos{
+    margin-bottom: 50px;
+    font-size: 12px;
+    align-content: flex-end;
+    justify-items: center;
+}
+
+
+.lista{
+        list-style: none;
+        font-size: small;
+        padding: 0 20px;
+}
+
+.listaBox{
+    display: flex;
+    flex-direction: row;
+}
+.nomeLista{
+    font-size: 13px;
+    font-weight: bold;
+    color: #4BC1D2;
+}
+
+.itemLista{
+    padding: 5px 0;
+}
+
+.sobreBox{
+    width: 400px;
+}
+
+.sobreTitulo{
+    font-family: 'Jacquard 24', 'Times New Roman', Times, serif;
+    font-weight: 200;
+    font-size: 20px;
+}
+
+.sobreTexto{
+    padding: 10px 0 0 0;
+    font-size: 12px;
+    text-align: justify;
+}
