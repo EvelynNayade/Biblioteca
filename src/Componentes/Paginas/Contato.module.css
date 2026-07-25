@@ -1,6 +1,6 @@
 .texto{
     color: #03151E;
-    padding: 1rem 0rem;
+    padding-bottom: 1em;
     justify-items: center;
 }
 
@@ -8,13 +8,7 @@
     font-size: 20px;
 }
 
-.form{
-    width: 400px;
-    height: 300px;
-    background-color: white;
-    box-shadow: -10px 0 5px rgba(31, 31, 31, 0.241),
-                 10px 0 5px rgba(31, 31, 31, 0.241);
-    display: flex;
-    flex-direction: column;
-
+.texto h1 {
+    font-size: 48px;
 }
+

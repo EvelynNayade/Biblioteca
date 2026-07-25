@@ -1,0 +1,9 @@
+.form{
+    background-color: #eaf9fe;
+    width: 400px;
+    background-color: #eaf9fe;
+    box-shadow: -10px 0 5px rgba(31, 31, 31, 0.241),
+                 10px 0 5px rgba(31, 31, 31, 0.241);
+    padding-bottom: 1em;
+    border-radius: 5%;
+}

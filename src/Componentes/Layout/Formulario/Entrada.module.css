@@ -1,0 +1,23 @@
+.entradas{
+    color: #03151E;
+    width: 100%;
+    padding: 0.5em 1em;
+    
+}
+
+.entradas p{
+    padding-bottom: 0.25em;
+    font-weight: bold;
+}
+
+.entradas input, textarea{
+    outline: none;
+    border: 1px solid #03151E;
+    width: 100%;
+    padding: .7em;
+    border-radius: 1em;
+    color: #03151E;
+}
+ .entradas input{
+    height: 2.5em;
+ }
