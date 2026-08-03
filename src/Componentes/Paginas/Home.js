@@ -48,7 +48,7 @@ function Home(){
                 <p>Sua Biblioteca nunca pareceu tão boa.</p>
                 <p>Livros, filmes e séries em um só lugar.</p>
             
-                    <Link to='/place2'>Começar</Link>
+                    <Link to='/login'>Começar</Link>
                
                 <img src={imagem} alt='Tela de Inicio'/>
                 <h2>Crie, gerencie e compartilhe suas coleções</h2>
@@ -59,7 +59,7 @@ function Home(){
                     obras, compartilhar suas coleções e muito mais. A Biblioteca Central de Trocas é o melhor 
                     lugar para catolgar e gerenciar sua mídia disponível online.
                 </p>
-                    <Link to='/place2'>Começar</Link>
+                    <Link to='/login'>Começar</Link>
             </section>
            {screenSize.width < 950 ? 
             <div className={styles.tabela}>

@@ -9,10 +9,16 @@ function Entrada(props){
                 name={props.titulo}
                 id={props.titulo}
                 value={props.value}
-                placeholder={props.placeholder}/>
+                placeholder={props.placeholder}
+                onChange={(e)=>props.setValor(e.target.value)}
+                />
 
             ) : (
-                <textarea rows={props.rows} cols={props.cols} placeholder={props.placeholder}/>
+                <textarea rows={props.rows} cols={props.cols}
+                name={props.titulo} 
+                placeholder={props.placeholder}
+                onChange={(e)=>props.setValor(e.target.value)}
+                />
             )}
         </div>
     )

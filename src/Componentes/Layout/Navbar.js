@@ -13,7 +13,7 @@ function Navbar(){
             <Link to ="/contato">Contate-nos</Link>
             </li>
             <li className={styles.botao}>
-            <Link to ="/place2">Iniciar Sessão</Link>
+            <Link to ="/login">Iniciar Sessão</Link>
             </li>
             <li className={styles.botao}>
             <Link to ="/place3">Cadastre-se</Link>
