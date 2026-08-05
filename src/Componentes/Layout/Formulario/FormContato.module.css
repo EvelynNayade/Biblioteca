@@ -4,6 +4,12 @@
     background-color: #eaf9fe;
     box-shadow: -10px 0 5px rgba(31, 31, 31, 0.241),
                  10px 0 5px rgba(31, 31, 31, 0.241);
-    padding-bottom: 1em;
+    padding: 0.5em 1em;
     border-radius: 5%;
+}
+
+.form p{
+    color: #03151E;
+    padding: 0.25em 1em;
+    font-weight: bold;
 }

@@ -1,4 +1,40 @@
-.titulo{
-    margin: 1em auto;
+.texto{
     color: #03151E;
+    justify-items: center;
+    padding: 2em 0;
+}
+
+.texto p {
+    font-size: 20px;
+}
+
+.texto h1 {
+    font-size: 48px;
+}
+
+.form{
+    background-color: #ffffff;
+    width: 350px;
+    box-shadow: -10px 0 5px rgba(31, 31, 31, 0.241),
+                 10px 0 5px rgba(31, 31, 31, 0.241);
+    padding: 0.5em 1em;
+    border-radius: 5%;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+    padding-bottom: 1em;
+}
+
+.header h1{
+    font-family: 'Jacquard 24', 'Times New Roman', Times, serif;
+    font-size: 24px;
+    font-weight: lighter;
+}
+
+.header p{
+    font-size: 26px;
 }

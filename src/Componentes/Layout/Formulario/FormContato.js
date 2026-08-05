@@ -19,16 +19,17 @@ function FormContato(){
 
     return(
         <form className={styles.form} onSubmit={submit}>
+                <p>Nome:</p>
                 <Entrada titulo = "Seu Nome" 
                          tipo = "text" 
                          placeholder="Seu nome" 
                          setValor ={setNome}/>
-
+                <p>Email:</p>
                 <Entrada titulo = "E-mail" 
                          tipo = "email" 
                          placeholder="email@exemplo.com" 
                          setValor ={setEmail}/>
-
+                <p>Comentário ou Dúvida:</p>
                 <Entrada titulo = "Comentário / Dúvida" 
                          tipo = "textarea" 
                          rows = "5" cols = "50"
