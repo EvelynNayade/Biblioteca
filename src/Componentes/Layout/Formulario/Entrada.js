@@ -10,6 +10,7 @@ function Entrada(props){
                 value={props.value}
                 placeholder={props.placeholder}
                 onChange={(e)=>props.setValor(e.target.value)}
+                required
                 />
 
             ) : (

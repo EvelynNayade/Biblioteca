@@ -16,7 +16,7 @@ function Navbar(){
             <Link to ="/login">Iniciar Sessão</Link>
             </li>
             <li className={styles.botao}>
-            <Link to ="/place3">Cadastre-se</Link>
+            <Link to ="/cadastro">Cadastre-se</Link>
             </li>
         </ul>
        </Box>

@@ -4,7 +4,7 @@ function CheckBox(props){
         <label className={styles.checkBox}>
                 <input  type="checkbox"
                     checked={props.status}
-                    onChange={props.setValor}
+                    onChange={(e)=>props.setValor(e.target.checked)}
                     />
                 {props.texto}
         </label>

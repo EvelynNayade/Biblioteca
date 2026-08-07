@@ -35,7 +35,7 @@ function FormContato(){
                          rows = "5" cols = "50"
                          setValor = {setComent}/>
 
-                <Botao tipo="submit" customClass="botao_pequeno"/>
+                <Botao tipo="submit" customClass="botao_pequeno" texto="Enviar"/>
 
         </form>
     )

@@ -12,20 +12,11 @@
     font-size: 48px;
 }
 
-.form{
-    background-color: #ffffff;
-    width: 350px;
-    box-shadow: -10px 0 5px rgba(31, 31, 31, 0.241),
-                 10px 0 5px rgba(31, 31, 31, 0.241);
-    padding: 0.5em 1em;
-    border-radius: 5%;
-}
-
 .header{
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 15px;
+    gap: 35px;
     padding-bottom: 1em;
 }
 
@@ -37,4 +28,37 @@
 
 .header p{
     font-size: 26px;
+}
+
+.form{
+    background-color: #F8FEFF;
+    width: 350px;
+    box-shadow: -10px 0 5px rgba(31, 31, 31, 0.1),
+                 10px 0 5px rgba(31, 31, 31, 0.1);
+    padding: 0.5em 1em 1em 1em;
+    border-radius: 5% 5% 0 0;
+}
+
+.cadastro{
+    background-color: #F8FEFF;
+    color: #03151E;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 3em;
+    width: 350px;
+    box-shadow: -10px 0 5px rgba(31, 31, 31, 0.1),
+                 10px 0 5px rgba(31, 31, 31, 0.1);
+    border-radius: 0 0 5% 5%;
+}
+
+.cadastro a{
+    color: #4BC1D2;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.cadastro a:hover{
+    color: #03151E;
 }

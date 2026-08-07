@@ -1,6 +1,14 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
+
 import Entrada from "./Entrada";
 import CheckBox from "./CheckBox";
+import Botao from "./Botao"
+
+import { FaRegUser } from "react-icons/fa";
+import { FaLock } from "react-icons/fa";
+
+import styles from "./FormLogin.module.css"
 
 function FormLogin(){
     const [email, setEmail]  = useState();
@@ -14,23 +22,30 @@ function FormLogin(){
         console.log("Lembrar?: "+lembrar);
         };
     
-    const handleCheck = (e) => {
-        setLembrar(e.target.checked);
-    };
-
     return(
         <form onSubmit={submit}>
-            <Entrada titulo = "email" 
+            <div>
+                <Entrada titulo = "email" 
                          tipo = "email" 
                          placeholder="email@exemplo.com" 
                          setValor ={setEmail}/>
-            <Entrada titulo = "Senha" 
+                <FaRegUser/>
+            </div>
+            <div>
+                <Entrada titulo = "Senha" 
                          tipo = "password" 
                          placeholder="Digite sua senha" 
                          setValor ={setSenha}/>
-            <CheckBox texto = "Lembrar-me"
-                      status = {lembrar}
-                      setValor = {handleCheck}/>
+                <FaLock/>
+            </div>
+            <div className={styles.lembrar}>
+                <CheckBox texto = "Lembrar-me"
+                          status = {lembrar}
+                          setValor = {setLembrar}/>
+                <Link to ="/lembrar-senha">Esqueceu a senha? </Link>
+            </div>
+            <Botao tipo = "submit"
+                   customClass="botao_grande" texto ="Iniciar Sessão"/>
         </form>
     )
 }

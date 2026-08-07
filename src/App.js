@@ -18,7 +18,7 @@ function App() {
           <Route exact path="/" element={<Home />} />
           <Route exact path="/contato" element={<Contato />} />
           <Route exact path="/login" element={<Login/>} />
-          <Route exact path="/place3" element={<PlaceHolder3/>} />
+          <Route exact path="/cadastro" element={<PlaceHolder3/>} />
         </Routes>
       </Box>
       <Footer/>

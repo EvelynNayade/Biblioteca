@@ -1,0 +1,17 @@
+.lembrar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1em;
+}
+
+.lembrar a{
+    color: #4BC1D2;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.lembrar a:hover{
+    color: #03151E;
+}
