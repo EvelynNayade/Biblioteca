@@ -5,8 +5,7 @@ import Entrada from "./Entrada";
 import CheckBox from "./CheckBox";
 import Botao from "./Botao"
 
-import { FaRegUser } from "react-icons/fa";
-import { FaLock } from "react-icons/fa";
+import { FaRegUser, FaLock, FaEye, FaEyeSlash } from "react-icons/fa";
 
 import styles from "./FormLogin.module.css"
 
@@ -14,7 +13,8 @@ function FormLogin(){
     const [email, setEmail]  = useState();
     const [senha, setSenha]   = useState();
     const [lembrar, setLembrar] = useState(false);
-    
+    const [tipo, setTipo] = useState("password");
+
     const submit = (e) =>{
         e.preventDefault();
         console.log("Email: "+email);
@@ -22,21 +22,29 @@ function FormLogin(){
         console.log("Lembrar?: "+lembrar);
         };
     
-    return(
+    const handleClick = (e) => {
+        e.preventDefault();
+        tipo==="password" ? setTipo("text") : setTipo("password");
+    };
+
+        return(
         <form onSubmit={submit}>
-            <div>
+            <div className={styles.entrada}>
+                <FaRegUser/>
                 <Entrada titulo = "email" 
                          tipo = "email" 
                          placeholder="email@exemplo.com" 
                          setValor ={setEmail}/>
-                <FaRegUser/>
             </div>
-            <div>
+             <div className={styles.senha}>
+                <FaLock/>
                 <Entrada titulo = "Senha" 
-                         tipo = "password" 
+                         tipo = {tipo} 
                          placeholder="Digite sua senha" 
                          setValor ={setSenha}/>
-                <FaLock/>
+                {tipo === "password" ? 
+                <FaEye className={styles.icone} onClick={handleClick}/> : 
+                <FaEyeSlash className={styles.icone} onClick={handleClick}/>}
             </div>
             <div className={styles.lembrar}>
                 <CheckBox texto = "Lembrar-me"

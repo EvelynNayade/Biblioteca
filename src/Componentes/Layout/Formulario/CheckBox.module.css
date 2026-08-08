@@ -8,3 +8,7 @@
 .checkBox input{
     margin-right: 6px;
 }
+
+.checkBox input:hover{
+    cursor: pointer;
+}
