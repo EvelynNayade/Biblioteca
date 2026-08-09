@@ -1,0 +1,13 @@
+.selection{
+    padding: 0.5em 1em;
+}
+
+.selection select{
+    width: 100%;
+    font-size: 14px;
+    outline: none;
+    border: 1px solid #03151E;
+    padding: .7em;
+    border-radius: 1em;
+    color: #03151E;
+}

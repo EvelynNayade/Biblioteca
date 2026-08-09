@@ -1,0 +1,47 @@
+.head{
+    color: #03151E;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-items: center;
+    margin-bottom: 2em;
+}
+
+.head h1{
+    font-size: 40px;
+}
+
+.head h2{
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.titulo{
+    margin: 1em 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.nome{
+    font-family: 'Jacquard 24', 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    padding-left: 0.5em;
+}
+
+.form{
+    background-color: #F8FEFF;
+    width: 700px;
+    box-shadow: -10px 0 5px rgba(31, 31, 31, 0.1),
+                 10px 0 5px rgba(31, 31, 31, 0.1);
+    padding: 1em 0.5em;
+    border-radius: 5%;
+
+}
+
+.form h1{
+    padding-left: 0.5em;
+    margin-bottom: 0.5em;
+    font-size: 20px;
+    font-weight: bold;
+    color: #03151E;
+    font-family: Arial, Helvetica, sans-serif
+}

@@ -3,7 +3,7 @@ import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
 import  Home from './Componentes/Paginas/Home'
 import Contato from './Componentes/Paginas/Contato'
 import Login from './Componentes/Paginas/Login'
-import PlaceHolder3 from './Componentes/Paginas/PlaceHolder3'
+import Cadastro from './Componentes/Paginas/Cadastro'
 
 import Navbar from './Componentes/Layout/Navbar'
 import Box from './Componentes/Layout/Box'
@@ -18,7 +18,7 @@ function App() {
           <Route exact path="/" element={<Home />} />
           <Route exact path="/contato" element={<Contato />} />
           <Route exact path="/login" element={<Login/>} />
-          <Route exact path="/cadastro" element={<PlaceHolder3/>} />
+          <Route exact path="/cadastro" element={<Cadastro/>} />
         </Routes>
       </Box>
       <Footer/>

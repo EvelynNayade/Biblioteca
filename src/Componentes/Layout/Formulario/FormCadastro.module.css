@@ -1,0 +1,29 @@
+.formulario{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    margin-bottom: 1em;
+}
+
+.formulario p{
+    color: #03151E;
+    padding: 0.2em 1em;
+    
+}
+
+.senha{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+}
+
+.senha svg{
+    position: absolute;
+    right: 25px;
+    color: #03151eae;
+}
+
+.senha svg:hover{
+    cursor: pointer;
+}
